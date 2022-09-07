@@ -10,7 +10,7 @@ public class Coll : MonoBehaviour
     {
         if (collision.gameObject.name == "water_peg")
         {
-            print("Collided");
+            //print("Collided");
 
            // gameObject.transform.position = new Vector3(3.0f, 3.0f, 3.0f);
         }
