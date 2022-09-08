@@ -6,7 +6,7 @@ public class Coll : MonoBehaviour
 {
     
     public GameObject water_peg;
-    private void OnCollisionEnter(Collision collision)
+    /*private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.name == "water_peg")
         {
@@ -15,9 +15,8 @@ public class Coll : MonoBehaviour
            // gameObject.transform.position = new Vector3(3.0f, 3.0f, 3.0f);
         }
 
-    }
-
-
+    }*/
+    public float attractiveForce=0.1f;
     private void Update()
     {
 
@@ -30,12 +29,12 @@ public class Coll : MonoBehaviour
 
         if (_x < x)
         {
-            gameObject.transform.position = new Vector3((x - 0.1f), y, z);
+            gameObject.transform.position = new Vector3((x - attractiveForce), y, z);
         }
 
         else if (_x > x)
         {
-            gameObject.transform.position = new Vector3((x + 0.1f), y, z);
+            gameObject.transform.position = new Vector3((x + attractiveForce), y, z);
         }
         /* if (_z < z)
          {
