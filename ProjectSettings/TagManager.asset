@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - peg
+  - ring
+  - C1
+  - S1
+  - S2
+  - score
   layers:
   - Default
   - TransparentFX
