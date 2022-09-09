@@ -26,16 +26,22 @@ public class Coll : MonoBehaviour
         float _x = water_peg.transform.position.x;
         float _y = water_peg.transform.position.y;
         float _z = water_peg.transform.position.z;
-
-        if (_x < x)
+        if (y > 4.1f) 
         {
-            gameObject.transform.position = new Vector3((x - attractiveForce), y, z);
+
+            if (_x < x)
+            {
+                gameObject.transform.position = new Vector3((x - attractiveForce), y, z);
+            }
+
+            else if (_x > x)
+            {
+                gameObject.transform.position = new Vector3((x + attractiveForce), y, z);
+            }
+
         }
 
-        else if (_x > x)
-        {
-            gameObject.transform.position = new Vector3((x + attractiveForce), y, z);
-        }
+        
         /* if (_z < z)
          {
              gameObject.transform.position = new Vector3(x , y , (z - 0.001f));
