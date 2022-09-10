@@ -26,7 +26,7 @@ public class Score : MonoBehaviour
         {
             score++;
             print("score=" + (score));
-            _title.text = score.ToString();
+            _title.text = "<b>" + score.ToString() + "<b>";
 
 
             // gameObject.transform.position = new Vector3(3.0f, 3.0f, 3.0f);
