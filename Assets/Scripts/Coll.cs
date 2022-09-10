@@ -26,7 +26,7 @@ public class Coll : MonoBehaviour
         float _x = water_peg.transform.position.x;
         float _y = water_peg.transform.position.y;
         float _z = water_peg.transform.position.z;
-        if (y > 4.1f) 
+        if (y > 9.0f) 
         {
 
             if (_x < x)

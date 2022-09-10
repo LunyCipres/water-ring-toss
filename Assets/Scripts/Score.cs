@@ -21,7 +21,7 @@ public class Score : MonoBehaviour
         if (collision1.gameObject.tag == "score" )
         {
             score++;
-            print("score=" + (score));
+            print("Score=" + (score));
 
             // gameObject.transform.position = new Vector3(3.0f, 3.0f, 3.0f);
         }
