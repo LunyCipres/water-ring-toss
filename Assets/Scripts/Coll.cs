@@ -5,7 +5,8 @@ using UnityEngine;
 public class Coll : MonoBehaviour
 {
     
-    public GameObject water_peg;
+    public GameObject water_peg1;
+    /*public GameObject water_peg2;*/
     /*private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.name == "water_peg")
@@ -23,9 +24,13 @@ public class Coll : MonoBehaviour
         float x = transform.position.x;
         float y = transform.position.y;
         float z = transform.position.z;
-        float _x = water_peg.transform.position.x;
-        float _y = water_peg.transform.position.y;
-        float _z = water_peg.transform.position.z;
+        float _x = water_peg1.transform.position.x;
+        float _y = water_peg1.transform.position.y;
+        float _z = water_peg1.transform.position.z;
+       /* float x2 = water_peg2.transform.position.x;
+        float y2 = water_peg2.transform.position.y;
+        float z2 = water_peg2.transform.position.z;
+*/
         if (y > 9.0f) 
         {
 
