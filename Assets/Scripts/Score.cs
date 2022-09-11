@@ -6,7 +6,7 @@ using TMPro;
 
 public class Score : MonoBehaviour
 {
-    private int score = 0;
+    public int score = 0;
     [SerializeField]
     private TMP_Text _title;
     /*private void OnCollisionEnter(Collision collision)
