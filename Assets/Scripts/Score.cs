@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Score : MonoBehaviour
 {
-    public int score = 0;
+    private int score = 0;
     [SerializeField]
     private TMP_Text _title;
     /*private void OnCollisionEnter(Collision collision)
@@ -28,7 +29,8 @@ public class Score : MonoBehaviour
             print("score=" + (score));
             _title.text = "<b>" + score.ToString() + "<b>";
 
-
+            if (score == 1)
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             // gameObject.transform.position = new Vector3(3.0f, 3.0f, 3.0f);
         }
 
