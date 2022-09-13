@@ -1887,7 +1887,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768788593}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9551529197314424ea1f98657c59ca0a, type: 3}
   m_Name: 
@@ -5454,8 +5454,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _title: {fileID: 1837963503}
-  numOfHoops: 0
-  LevelButton: {fileID: 0}
+  numOfHoops: 4
+  LevelButton: {fileID: 768788593}
 --- !u!135 &2089074105
 SphereCollider:
   m_ObjectHideFlags: 0

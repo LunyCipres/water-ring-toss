@@ -36,9 +36,9 @@ public class Score : MonoBehaviour
             _title.text = "<b>" + score.ToString() + "<b>";
 
             //check if level is complete
-            if (score == 1/*numOfHoops*/) {
+            if (score == /*1*/numOfHoops) {
                 print("level complete");
-                //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 if (LevelButton != null) {
                     //debug line
                     print("next level");
