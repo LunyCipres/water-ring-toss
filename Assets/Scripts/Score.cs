@@ -10,6 +10,8 @@ public class Score : MonoBehaviour
     private int score = 0;
     [SerializeField]
     private TMP_Text _title;
+    [SerializeField]
+    private int numOfHoops;
     /*private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.name == "water_peg")
@@ -29,7 +31,7 @@ public class Score : MonoBehaviour
             print("score=" + (score));
             _title.text = "<b>" + score.ToString() + "<b>";
 
-            if (score == 1)
+            if (score == numOfHoops)
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             // gameObject.transform.position = new Vector3(3.0f, 3.0f, 3.0f);
         }
