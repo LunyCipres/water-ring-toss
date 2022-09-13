@@ -11,7 +11,13 @@ public class Score : MonoBehaviour
     [SerializeField]
     private TMP_Text _title;
     [SerializeField]
+
+    //depicts total number of hoops in the level, used to check if level is complete
     private int numOfHoops;
+    //next level button
+    [SerializeField]
+    private GameObject LevelButton;
+
     /*private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.name == "water_peg")
@@ -31,8 +37,13 @@ public class Score : MonoBehaviour
             print("score=" + (score));
             _title.text = "<b>" + score.ToString() + "<b>";
 
-            if (score == numOfHoops)
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            //check if level is complete
+            if (score == numOfHoops) {
+                //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                if (LevelButton != null) {
+                    LevelButton.SetActive(true);
+                }
+            }
             // gameObject.transform.position = new Vector3(3.0f, 3.0f, 3.0f);
         }
 
