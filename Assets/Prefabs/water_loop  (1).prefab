@@ -419,6 +419,7 @@ GameObject:
   - component: {fileID: 2823394146033118156}
   - component: {fileID: 2823394146033118157}
   - component: {fileID: 2823394146033118193}
+  - component: {fileID: 1906687841881922921}
   m_Layer: 0
   m_Name: water_loop  (1)
   m_TagString: ring
@@ -528,7 +529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f50274df8affb98438a0f2c3806e07a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  water_peg: {fileID: 0}
+  water_peg1: {fileID: 0}
   attractiveForce: 0.002
 --- !u!114 &2823394146033118193
 MonoBehaviour:
@@ -537,10 +538,24 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3165995171858192025}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de3a5f63aeab0c14286ff340dda31ab9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Force: 1
   Dir: 0.1
+--- !u!114 &1906687841881922921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3165995171858192025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa75c79bada069e4ea66f93e66e28124, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Force: 10
+  Dir: 0.5
