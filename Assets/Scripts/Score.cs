@@ -10,13 +10,11 @@ public class Score : MonoBehaviour
     private int score = 0;
     [SerializeField]
     private TMP_Text _title;
-    [SerializeField]
 
     //depicts total number of hoops in the level, used to check if level is complete
-    private int numOfHoops;
+    public int numOfHoops;
     //next level button
-    [SerializeField]
-    private GameObject LevelButton;
+    public GameObject LevelButton;
 
     /*private void OnCollisionEnter(Collision collision)
     {
@@ -38,9 +36,13 @@ public class Score : MonoBehaviour
             _title.text = "<b>" + score.ToString() + "<b>";
 
             //check if level is complete
-            if (score == numOfHoops) {
+            if (score == 1/*numOfHoops*/) {
+                print("level complete");
                 //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 if (LevelButton != null) {
+                    //debug line
+                    print("next level");
+
                     LevelButton.SetActive(true);
                 }
             }
