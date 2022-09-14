@@ -4455,7 +4455,7 @@ GameObject:
   - component: {fileID: 1743993568}
   - component: {fileID: 1743993569}
   m_Layer: 5
-  m_Name: ButtonLeft
+  m_Name: ButtonRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4539,7 +4539,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1906687841881922921, guid: e0bc655655b6a734f812298fe58492db, type: 3}
         m_TargetAssemblyTypeName: PushHoop, Assembly-CSharp
-        m_MethodName: applyForce
+        m_MethodName: moveRight
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5438,7 +5438,7 @@ GameObject:
   - component: {fileID: 2007885461}
   - component: {fileID: 2007885462}
   m_Layer: 5
-  m_Name: ButtonRight
+  m_Name: ButtonLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5522,7 +5522,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1906687841881922921, guid: e0bc655655b6a734f812298fe58492db, type: 3}
         m_TargetAssemblyTypeName: PushHoop, Assembly-CSharp
-        m_MethodName: applyForce
+        m_MethodName: moveLeft
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6467,7 +6467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7141089e3d45c9449b1f1098dd99b9b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3469287837161194841
+--- !u!114 &3469287837161194849
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
