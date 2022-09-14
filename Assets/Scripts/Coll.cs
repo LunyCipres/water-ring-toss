@@ -18,7 +18,7 @@ public class Coll : MonoBehaviour
 
     }*/
     public float attractiveForce=0.1f;
-    private void Update()
+    private void fixedUpdate()
     {
 
         float x = transform.position.x;

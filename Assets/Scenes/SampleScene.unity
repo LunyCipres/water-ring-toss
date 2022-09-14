@@ -182,6 +182,10 @@ PrefabInstance:
       propertyPath: water_peg1
       value: 
       objectReference: {fileID: 911848922}
+    - target: {fileID: 2823394146033118193, guid: e0bc655655b6a734f812298fe58492db, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3165995171858192025, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_Name
       value: water_loop  (9)
@@ -386,6 +390,10 @@ PrefabInstance:
       propertyPath: water_peg1
       value: 
       objectReference: {fileID: 911848922}
+    - target: {fileID: 2823394146033118193, guid: e0bc655655b6a734f812298fe58492db, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3165995171858192025, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_Name
       value: water_loop  (7)
@@ -1666,6 +1674,10 @@ PrefabInstance:
       propertyPath: water_peg1
       value: 
       objectReference: {fileID: 911848922}
+    - target: {fileID: 2823394146033118193, guid: e0bc655655b6a734f812298fe58492db, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3165995171858192025, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_Name
       value: water_loop  (6)
@@ -1700,7 +1712,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &768788594
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1857,7 +1869,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &784657037
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2962,7 +2974,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1243435136
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3094,6 +3106,10 @@ PrefabInstance:
       propertyPath: water_peg1
       value: 
       objectReference: {fileID: 911848922}
+    - target: {fileID: 2823394146033118193, guid: e0bc655655b6a734f812298fe58492db, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3165995171858192025, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_Name
       value: water_loop  (8)
@@ -5060,7 +5076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _title: {fileID: 1837963503}
-  numOfHoops: 5
+  numOfHoops: 2
   LevelButton: {fileID: 768788593}
 --- !u!135 &2089074105
 SphereCollider:
