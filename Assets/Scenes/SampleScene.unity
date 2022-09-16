@@ -194,6 +194,10 @@ PrefabInstance:
       propertyPath: water_peg1
       value: 
       objectReference: {fileID: 911848922}
+    - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
+      propertyPath: attractiveForce
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2823394146033118193, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -280,6 +284,10 @@ PrefabInstance:
       propertyPath: water_peg1
       value: 
       objectReference: {fileID: 911848922}
+    - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
+      propertyPath: attractiveForce
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2823394146033118193, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1017,7 +1025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   water_peg1: {fileID: 911848922}
-  attractiveForce: 0.01
+  attractiveForce: 20
 --- !u!54 &488762653
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1615,6 +1623,10 @@ PrefabInstance:
       propertyPath: water_peg1
       value: 
       objectReference: {fileID: 911848922}
+    - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
+      propertyPath: attractiveForce
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2823394146033118193, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -3047,6 +3059,10 @@ PrefabInstance:
       propertyPath: water_peg1
       value: 
       objectReference: {fileID: 911848922}
+    - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
+      propertyPath: attractiveForce
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2823394146033118193, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -3922,6 +3938,7 @@ GameObject:
   - component: {fileID: 1661119704}
   - component: {fileID: 1661119703}
   - component: {fileID: 1661119706}
+  - component: {fileID: 1661119707}
   m_Layer: 5
   m_Name: Play
   m_TagString: Untagged
@@ -4007,6 +4024,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1661119707}
+        m_TargetAssemblyTypeName: TimeControl, Assembly-CSharp
+        m_MethodName: NormalTime
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1661119704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4060,6 +4089,18 @@ MonoBehaviour:
   PrevPanel: {fileID: 784657036}
   NextPanel: {fileID: 0}
   ToggledPanel: {fileID: 0}
+--- !u!114 &1661119707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661119701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3373b8570c5fc4e8586d941988d766, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1743993563
 GameObject:
   m_ObjectHideFlags: 0
