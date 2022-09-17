@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.43234885, g: 0.4684093, b: 0.5028557, a: 1}
+  m_IndirectSpecularColor: {r: 0.42974338, g: 0.46533096, b: 0.5006427, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2352021918590553123, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2352021918590553123, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_LocalScale.x
@@ -192,7 +192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2823394146033118156, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_Mass
-      value: 0.1
+      value: 0.025
       objectReference: {fileID: 0}
     - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: water_peg
@@ -242,7 +242,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2352021918590553123, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2352021918590553123, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_LocalScale.x
@@ -302,7 +302,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2823394146033118156, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_Mass
-      value: 0.1
+      value: 0.025
       objectReference: {fileID: 0}
     - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: water_peg
@@ -473,8 +473,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa75c79bada069e4ea66f93e66e28124, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Force: 2
-  Dir: 0.25
+  Force: 0.25
+  Dir: 0.025
 --- !u!1 &231751331
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,7 +529,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 23f63525dfc90f244934f07f01227fe0, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 23f63525dfc90f244934f07f01227fe0, type: 3}
       propertyPath: m_LocalScale.x
@@ -1014,7 +1014,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d01c218737586b64a96ab2e9ac1b9f7b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.33
+      value: -7.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d01c218737586b64a96ab2e9ac1b9f7b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1075,7 +1075,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e19c46361599c7b43864d6dfc4bf61c2, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e19c46361599c7b43864d6dfc4bf61c2, type: 3}
       propertyPath: m_LocalScale.x
@@ -1178,7 +1178,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 488762650}
   serializedVersion: 2
-  m_Mass: 0.1
+  m_Mass: 0.025
   m_Drag: 0.24
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -1198,8 +1198,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa75c79bada069e4ea66f93e66e28124, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Force: 2
-  Dir: 0.25
+  Force: 0.25
+  Dir: 0.025
 --- !u!1 &517307363 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3165995171858192025, guid: e0bc655655b6a734f812298fe58492db, type: 3}
@@ -1217,8 +1217,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa75c79bada069e4ea66f93e66e28124, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Force: 2
-  Dir: 0.25
+  Force: 0.25
+  Dir: 0.025
 --- !u!1001 &548633634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1244,11 +1244,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d01c218737586b64a96ab2e9ac1b9f7b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.8
+      value: -4.74
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d01c218737586b64a96ab2e9ac1b9f7b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.39
+      value: 11.09
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d01c218737586b64a96ab2e9ac1b9f7b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1999,7 +1999,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2352021918590553123, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2352021918590553123, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_LocalScale.x
@@ -2059,7 +2059,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2823394146033118156, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_Mass
-      value: 0.1
+      value: 0.025
       objectReference: {fileID: 0}
     - target: {fileID: 2823394146033118156, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_IsKinematic
@@ -2128,7 +2128,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &768788594
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2756,7 +2756,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: d01c218737586b64a96ab2e9ac1b9f7b, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d01c218737586b64a96ab2e9ac1b9f7b, type: 3}
       propertyPath: m_LocalScale.x
@@ -2772,11 +2772,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d01c218737586b64a96ab2e9ac1b9f7b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.48
+      value: -2.44
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d01c218737586b64a96ab2e9ac1b9f7b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.48
+      value: 8.54
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d01c218737586b64a96ab2e9ac1b9f7b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3194,7 +3194,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d01c218737586b64a96ab2e9ac1b9f7b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.18
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d01c218737586b64a96ab2e9ac1b9f7b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3768,7 +3768,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1243435136
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3850,7 +3850,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2352021918590553123, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2352021918590553123, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3898,7 +3898,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2823394146033118156, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_Mass
-      value: 0.1
+      value: 0.025
       objectReference: {fileID: 0}
     - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: water_peg
@@ -5840,8 +5840,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa75c79bada069e4ea66f93e66e28124, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Force: 2
-  Dir: 0.25
+  Force: 0.25
+  Dir: 0.025
 --- !u!1 &1911272384
 GameObject:
   m_ObjectHideFlags: 0
@@ -6771,5 +6771,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa75c79bada069e4ea66f93e66e28124, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Force: 2
-  Dir: 0.25
+  Force: 0.25
+  Dir: 0.025

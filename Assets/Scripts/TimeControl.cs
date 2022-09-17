@@ -10,7 +10,7 @@ public class TimeControl : MonoBehaviour
         Time.timeScale = 1;
 
         //limiting framerate for correct simulation according to mobile
-        Application.targetFrameRate = 60;
+        // Application.targetFrameRate = 60;
     }
 
     public void FreezeTime() {
