@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
-    public AudioSource audio;
+    public new AudioSource audio;
 
     public void playButton()
     {
