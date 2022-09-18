@@ -9,6 +9,7 @@ public class Coll : MonoBehaviour
     public GameObject water_peg1;
     public GameObject water_peg2;
     public GameObject water_peg3;
+    public float attractiveForce = 0.1f;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.name == "water_peg")
@@ -19,9 +20,9 @@ public class Coll : MonoBehaviour
         }
 
     }
+    
 
-
-    private void Update()
+    private void FixedUpdate()
     {
 
         float x = transform.position.x;
@@ -53,12 +54,12 @@ public class Coll : MonoBehaviour
             {
                 if (_x < x)
                 {
-                    gameObject.transform.position = new Vector3((x - 0.1f), y, z);
+                    gameObject.transform.position = new Vector3((x - attractiveForce), y, z);
                 }
 
                 else if (_x > x)
                 {
-                    gameObject.transform.position = new Vector3((x + 0.1f), y, z);
+                    gameObject.transform.position = new Vector3((x + attractiveForce), y, z);
                 }
 
             }
@@ -71,12 +72,12 @@ public class Coll : MonoBehaviour
             { 
                 if (_x1 < x)
                 {
-                    gameObject.transform.position = new Vector3((x - 0.1f), y, z);
+                    gameObject.transform.position = new Vector3((x - attractiveForce), y, z);
                 }
 
                 else if (_x1 > x)
                 {
-                    gameObject.transform.position = new Vector3((x + 0.1f), y, z);
+                    gameObject.transform.position = new Vector3((x + attractiveForce), y, z);
                 }
             }
         }
@@ -86,12 +87,12 @@ public class Coll : MonoBehaviour
             {
                 if (_x2 < x)
                 {
-                    gameObject.transform.position = new Vector3((x - 0.1f), y, z);
+                    gameObject.transform.position = new Vector3((x - attractiveForce), y, z);
                 }
 
                 else if (_x2 > x)
                 {
-                    gameObject.transform.position = new Vector3((x + 0.1f), y, z);
+                    gameObject.transform.position = new Vector3((x + attractiveForce), y, z);
                 }
             }
             
@@ -102,12 +103,12 @@ public class Coll : MonoBehaviour
             {
                 if (_x3 < x)
                 {
-                    gameObject.transform.position = new Vector3((x - 0.1f), y, z);
+                    gameObject.transform.position = new Vector3((x - attractiveForce), y, z);
                 }
 
                 else if (_x3 > x)
                 {
-                    gameObject.transform.position = new Vector3((x + 0.1f), y, z);
+                    gameObject.transform.position = new Vector3((x + attractiveForce), y, z);
                 }
             }
             

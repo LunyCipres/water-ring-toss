@@ -216,7 +216,7 @@ PrefabInstance:
       objectReference: {fileID: 2072832754}
     - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: attractiveForce
-      value: 40
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 2823394146033118193, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_Enabled
@@ -326,7 +326,7 @@ PrefabInstance:
       objectReference: {fileID: 2072832754}
     - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: attractiveForce
-      value: 40
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 2823394146033118193, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_Enabled
@@ -1169,6 +1169,7 @@ MonoBehaviour:
   water_peg1: {fileID: 911848922}
   water_peg2: {fileID: 616081021}
   water_peg3: {fileID: 396724270}
+  attractiveForce: 0.02
 --- !u!54 &488762653
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2086,7 +2087,7 @@ PrefabInstance:
       objectReference: {fileID: 2072832754}
     - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: attractiveForce
-      value: 40
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 2823394146033118193, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_Enabled
@@ -3921,7 +3922,7 @@ PrefabInstance:
       objectReference: {fileID: 2072832754}
     - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: attractiveForce
-      value: 40
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 2823394146033118193, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_Enabled
