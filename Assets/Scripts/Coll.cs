@@ -25,9 +25,9 @@ namespace MyApplication
 
         }*/
 
-        private float attractiveForce = 1.0f;
+        public float attractiveForce = 1.0f;
         
-        private void Update()
+        private void fixedUpdate()
         {
 
             float x = transform.position.x;
