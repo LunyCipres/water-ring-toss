@@ -521,6 +521,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa75c79bada069e4ea66f93e66e28124, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  water_peg1: {fileID: 0}
+  water_peg2: {fileID: 0}
+  water_peg3: {fileID: 0}
+  water_peg4: {fileID: 0}
+  threshold: 100
+  reduceForceFactor: 50
   Force: 0.25
   Dir: 0.025
 --- !u!1 &231751331
@@ -1246,6 +1252,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa75c79bada069e4ea66f93e66e28124, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  water_peg1: {fileID: 0}
+  water_peg2: {fileID: 0}
+  water_peg3: {fileID: 0}
+  water_peg4: {fileID: 0}
+  threshold: 100
+  reduceForceFactor: 50
   Force: 0.25
   Dir: 0.025
 --- !u!1 &517307363 stripped
@@ -1265,6 +1277,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa75c79bada069e4ea66f93e66e28124, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  water_peg1: {fileID: 0}
+  water_peg2: {fileID: 0}
+  water_peg3: {fileID: 0}
+  water_peg4: {fileID: 0}
+  threshold: 100
+  reduceForceFactor: 50
   Force: 0.25
   Dir: 0.025
 --- !u!1001 &548633634
@@ -6236,6 +6254,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa75c79bada069e4ea66f93e66e28124, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  water_peg1: {fileID: 0}
+  water_peg2: {fileID: 0}
+  water_peg3: {fileID: 0}
+  water_peg4: {fileID: 0}
+  threshold: 100
+  reduceForceFactor: 50
   Force: 0.25
   Dir: 0.025
 --- !u!1 &1911272384
@@ -7243,5 +7267,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa75c79bada069e4ea66f93e66e28124, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  water_peg1: {fileID: 0}
+  water_peg2: {fileID: 0}
+  water_peg3: {fileID: 0}
+  water_peg4: {fileID: 0}
+  threshold: 100
+  reduceForceFactor: 50
   Force: 0.25
   Dir: 0.025
