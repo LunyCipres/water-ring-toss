@@ -24,8 +24,10 @@ namespace MyApplication
             }
 
         }*/
-        public float attractiveForce = 0.1f;
-        private void fixedUpdate()
+
+        private float attractiveForce = 1.0f;
+        
+        private void Update()
         {
 
             float x = transform.position.x;
@@ -52,7 +54,7 @@ namespace MyApplication
      */
             if (Math.Abs(_y1-y) < Math.Abs(_y2 - y) && Math.Abs(_y1 - y)< Math.Abs(_y3 - y) && Math.Abs(_y1 - y) < Math.Abs(_y4 - y))
             { 
-                if (y > 9.0f)
+                if (y > 6.0f)
                 {
 
                     if (_x1 < x)
@@ -67,9 +69,9 @@ namespace MyApplication
 
                 }
             }
-            else if (Math.Abs(_y2 - y) < Math.Abs(_y1 - y) && Math.Abs(_y2 - y) < Math.Abs(_y3 - y) && Math.Abs(_y2 - y) < Math.Abs(_y4 - y))
+            if (Math.Abs(_y2 - y) < Math.Abs(_y1 - y) && Math.Abs(_y2 - y) < Math.Abs(_y3 - y) && Math.Abs(_y2 - y) < Math.Abs(_y4 - y))
             {
-                if (y > 9.0f)
+                if (y > 6.0f)
                 {
 
                     if (_x2 < x)
@@ -84,9 +86,9 @@ namespace MyApplication
 
                 }
             }
-            else if (Math.Abs(_y3 - y) < Math.Abs(_y1 - y) && Math.Abs(_y3 - y) < Math.Abs(_y2 - y) && Math.Abs(_y3 - y) < Math.Abs(_y4 - y))
+            if (Math.Abs(_y3 - y) < Math.Abs(_y1 - y) && Math.Abs(_y3 - y) < Math.Abs(_y2 - y) && Math.Abs(_y3 - y) < Math.Abs(_y4 - y))
             {
-                if (y > 9.0f)
+                if (y > 6.0f)
                 {
 
                     if (_x3 < x)
@@ -101,9 +103,9 @@ namespace MyApplication
 
                 }
             }
-            else if (Math.Abs(_y4 - y) < Math.Abs(_y1 - y) && Math.Abs(_y4 - y) < Math.Abs(_y2 - y) && Math.Abs(_y4 - y) < Math.Abs(_y3 - y))
+            if (Math.Abs(_y4 - y) < Math.Abs(_y1 - y) && Math.Abs(_y4 - y) < Math.Abs(_y2 - y) && Math.Abs(_y4 - y) < Math.Abs(_y3 - y))
             {
-                if (y > 9.0f)
+                if (y > 6.0f)
                 {
 
                     if (_x4 < x)

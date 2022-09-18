@@ -3,7 +3,11 @@ guid: f50274df8affb98438a0f2c3806e07a2
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - water_peg1: {fileID: 919132149155446097, guid: d01c218737586b64a96ab2e9ac1b9f7b, type: 3}
+  - water_peg2: {fileID: 919132149155446097, guid: d01c218737586b64a96ab2e9ac1b9f7b, type: 3}
+  - water_peg3: {fileID: 919132149155446097, guid: d01c218737586b64a96ab2e9ac1b9f7b, type: 3}
+  - water_peg4: {fileID: 919132149155446097, guid: d01c218737586b64a96ab2e9ac1b9f7b, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
