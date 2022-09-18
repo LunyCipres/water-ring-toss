@@ -20,8 +20,11 @@ public class PushHoop : MonoBehaviour
     2f;
     public float Dir = 0.5f; 
 
+    //checks if hoop is close to (in) peg
     private int isInPeg() {
+        //returns 1 if hoop is in peg
 
+        //current pos
         float x = transform.position.x;
         float y = transform.position.y;
         // float z = transform.position.z;
@@ -32,7 +35,8 @@ public class PushHoop : MonoBehaviour
             float _x1 = water_peg1.transform.position.x;
             float _y1 = water_peg1.transform.position.y;
             
-            if ( (Mathf.Abs(x - _x1) < threshold) && (Mathf.Abs(x - _x1) < threshold))
+            //checks if distance is smaller than given threshold
+            if ( (Mathf.Abs(x - _x1) < threshold) && (Mathf.Abs(y - _y1) < threshold))
             {
                 return 1;
             }
@@ -44,7 +48,7 @@ public class PushHoop : MonoBehaviour
             float _x2 = water_peg2.transform.position.x;
             float _y2 = water_peg2.transform.position.y;
             
-            if ( (Mathf.Abs(x - _x2) < threshold) && (Mathf.Abs(x - _x2) < threshold))
+            if ( (Mathf.Abs(x - _x2) < threshold) && (Mathf.Abs(y - _y2) < threshold))
             {
                 return 1;
             }
@@ -56,7 +60,7 @@ public class PushHoop : MonoBehaviour
             float _x3 = water_peg3.transform.position.x;
             float _y3 = water_peg3.transform.position.y;
             
-            if ( (Mathf.Abs(x - _x3) < threshold) && (Mathf.Abs(x - _x3) < threshold))
+            if ( (Mathf.Abs(x - _x3) < threshold) && (Mathf.Abs(y - _y3) < threshold))
             {
                 return 1;
             }
@@ -68,7 +72,7 @@ public class PushHoop : MonoBehaviour
             float _x4 = water_peg4.transform.position.x;
             float _y4 = water_peg4.transform.position.y;
             
-            if ( (Mathf.Abs(x - _x4) < threshold) && (Mathf.Abs(x - _x4) < threshold))
+            if ( (Mathf.Abs(x - _x4) < threshold) && (Mathf.Abs(y - _y4) < threshold))
             {
                 return 1;
             }
@@ -84,9 +88,12 @@ public class PushHoop : MonoBehaviour
             print("Im here");
             Vector3 impulse;
 
+            //checks using above function
             if (isInPeg() == 1)
             {
                 print("reduced");
+
+                //if hoop is in peg, the force applied by button is reduced
                 impulse = new Vector3(-Dir, Force/reduceForceFactor, 0.0f);
             }
             else
