@@ -85,7 +85,7 @@ public class PushHoop : MonoBehaviour
     {
         if (Time.timeScale != 0)
         {
-            print("Im here");
+            // print("Im here");
             Vector3 impulse;
 
             //checks using above function
