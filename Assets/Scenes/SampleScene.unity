@@ -156,7 +156,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2352021918590553123, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -21.64
+      value: -21.7
       objectReference: {fileID: 0}
     - target: {fileID: 2352021918590553123, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_LocalRotation.w
@@ -290,7 +290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2352021918590553123, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -21.53
+      value: -21.7
       objectReference: {fileID: 0}
     - target: {fileID: 2352021918590553123, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_LocalRotation.w
@@ -525,8 +525,8 @@ MonoBehaviour:
   water_peg2: {fileID: 616081021}
   water_peg3: {fileID: 396724270}
   water_peg4: {fileID: 2072832754}
-  threshold: 1
-  reduceForceFactor: 50
+  threshold: 0.5
+  reduceForceFactor: 10
   Force: 0.25
   Dir: 0.025
 --- !u!1 &231751331
@@ -587,7 +587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 23f63525dfc90f244934f07f01227fe0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.88998574
+      value: 0.8032121
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 23f63525dfc90f244934f07f01227fe0, type: 3}
       propertyPath: m_LocalScale.y
@@ -607,7 +607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 23f63525dfc90f244934f07f01227fe0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -21.6
+      value: -21.71
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 23f63525dfc90f244934f07f01227fe0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1199,7 +1199,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e19c46361599c7b43864d6dfc4bf61c2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -21.59
+      value: -21.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e19c46361599c7b43864d6dfc4bf61c2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1302,8 +1302,8 @@ MonoBehaviour:
   water_peg2: {fileID: 616081021}
   water_peg3: {fileID: 396724270}
   water_peg4: {fileID: 2072832754}
-  threshold: 1
-  reduceForceFactor: 50
+  threshold: 0.5
+  reduceForceFactor: 10
   Force: 0.25
   Dir: 0.025
 --- !u!1 &517307363 stripped
@@ -1327,8 +1327,8 @@ MonoBehaviour:
   water_peg2: {fileID: 616081021}
   water_peg3: {fileID: 396724270}
   water_peg4: {fileID: 2072832754}
-  threshold: 1
-  reduceForceFactor: 50
+  threshold: 0.5
+  reduceForceFactor: 10
   Force: 0.25
   Dir: 0.025
 --- !u!1001 &548633634
@@ -2270,7 +2270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2352021918590553123, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -21.68
+      value: -21.7
       objectReference: {fileID: 0}
     - target: {fileID: 2352021918590553123, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4390,7 +4390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2352021918590553123, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -21.52
+      value: -21.7
       objectReference: {fileID: 0}
     - target: {fileID: 2352021918590553123, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6442,8 +6442,8 @@ MonoBehaviour:
   water_peg2: {fileID: 616081021}
   water_peg3: {fileID: 396724270}
   water_peg4: {fileID: 2072832754}
-  threshold: 1
-  reduceForceFactor: 50
+  threshold: 0.5
+  reduceForceFactor: 10
   Force: 0.25
   Dir: 0.025
 --- !u!1 &1911272384
@@ -7455,7 +7455,7 @@ MonoBehaviour:
   water_peg2: {fileID: 616081021}
   water_peg3: {fileID: 396724270}
   water_peg4: {fileID: 2072832754}
-  threshold: 1
-  reduceForceFactor: 50
+  threshold: 0.5
+  reduceForceFactor: 10
   Force: 0.25
   Dir: 0.025
