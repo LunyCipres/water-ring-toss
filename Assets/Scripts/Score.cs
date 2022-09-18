@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class Score : MonoBehaviour
 {
-    private int score = 0;
+    private static int score = 0;
     [SerializeField]
     private TMP_Text _title;
 
