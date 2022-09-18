@@ -8,6 +8,7 @@ public class SceneLoader : MonoBehaviour
     public void NextLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Score.score = 0;
     }
     public void Reload()
     {
