@@ -84,7 +84,7 @@ public class Coll : MonoBehaviour
             case 0:
                 if (y > 10.0f)
                 {
-                    print("going to peg 0");
+                    // print("going to peg 0");
                     if (_x < x)
                     {
                         gameObject.transform.position = new Vector3((x - attractiveForce), y, z);
@@ -100,7 +100,7 @@ public class Coll : MonoBehaviour
             case 1:
                  if (y > 9.0f) 
                 { 
-                    print("going to peg 1");
+                    // print("going to peg 1");
                     if (_x1 < x)
                     {
                         gameObject.transform.position = new Vector3((x - attractiveForce), y, z);
@@ -115,7 +115,7 @@ public class Coll : MonoBehaviour
             case 2:
                 if(y> 11.1f)
                 {
-                    print("going to peg 2");
+                    // print("going to peg 2");
                     if (_x2 < x)
                     {
                         gameObject.transform.position = new Vector3((x - attractiveForce), y, z);
@@ -130,7 +130,7 @@ public class Coll : MonoBehaviour
             case 3:
                 if(y> 10.0f)
                 {
-                    print("going to peg 3");
+                    // print("going to peg 3");
                     if (_x3 < x)
                     {
                         gameObject.transform.position = new Vector3((x - attractiveForce), y, z);
