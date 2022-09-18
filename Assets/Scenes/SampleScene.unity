@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.42974338, g: 0.46533096, b: 0.5006427, a: 1}
+  m_IndirectSpecularColor: {r: 0.43234885, g: 0.4684093, b: 0.5028557, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -197,7 +197,7 @@ PrefabInstance:
     - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: water_peg
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2072832754}
     - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: water_peg1
       value: 
@@ -307,7 +307,7 @@ PrefabInstance:
     - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: water_peg
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2072832754}
     - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: water_peg1
       value: 
@@ -1165,11 +1165,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f50274df8affb98438a0f2c3806e07a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  water_peg: {fileID: 2072832754}
   water_peg1: {fileID: 911848922}
   water_peg2: {fileID: 616081021}
   water_peg3: {fileID: 396724270}
-  water_peg4: {fileID: 2072832754}
-  attractiveForce: 1
 --- !u!54 &488762653
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2068,7 +2067,7 @@ PrefabInstance:
     - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: water_peg
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2072832754}
     - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: water_peg1
       value: 
@@ -3903,7 +3902,7 @@ PrefabInstance:
     - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: water_peg
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2072832754}
     - target: {fileID: 2823394146033118157, guid: e0bc655655b6a734f812298fe58492db, type: 3}
       propertyPath: water_peg1
       value: 
